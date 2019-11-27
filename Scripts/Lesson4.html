@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="MyModule">
+<head>
+<meta charset="ISO-8859-1">
+<title>Angular Lesson 4 - ng-src</title>
+</head>
+<script src="C:\Users\577525\eclipse-workspace\AngularLesson4\src\Scripts\angular.js"></script>
+<script src="C:\Users\577525\eclipse-workspace\AngularLesson4\src\Scripts\Lesson4.js"></script>
+<body ng-controller="MyController">
+<div>
+{{ message.name}}
+</div>
+<div>
+<img src="C:\Users\577525\eclipse-workspace\AngularLesson4\src\Image\VijayS.jpg" style="height:50px;width:75px"/>
+<div>
+<img ng-src="{{ message.Photo }}"
+	 alt="Nothing"  />
+</div>
+</div>
+</body>
+</html>
